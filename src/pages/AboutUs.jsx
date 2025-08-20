@@ -1,5 +1,6 @@
 import React from "react";
 import AutoPartsCatalog from "../Components/AutoPartsCatalog";
+import aboutUsImage from "../assets/about-us-image.png";
 
 const AboutUs = () => {
 
@@ -42,37 +43,7 @@ const AboutUs = () => {
           </div>
 
           <div className="lg:col-span-1 flex justify-center">
-            <div className="relative w-100 h-100">
-              <div className="w-full h-full border-2 border-dotted border-gray-400 rounded-full flex items-center justify-center relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="grid grid-cols-4 gap-4 p-8">
-                    <div className="text-2xl">🚗</div>
-                    <div className="text-2xl">🔧</div>
-                    <div className="text-2xl">⚙️</div>
-                    <div className="text-2xl">🔋</div>
-                    <div className="text-2xl">🛢️</div>
-                    <div className="text-2xl">🔌</div>
-                    <div className="text-2xl">📊</div>
-                    <div className="text-2xl">🔧</div>
-                    <div className="text-2xl">⚡</div>
-                    <div className="text-2xl">🔧</div>
-                    <div className="text-2xl">🚗</div>
-                    <div className="text-2xl">⚙️</div>
-                    <div className="text-2xl">🔋</div>
-                    <div className="text-2xl">🛢️</div>
-                    <div className="text-2xl">🔌</div>
-                    <div className="text-2xl">📊</div>
-                  </div>
-                </div>
-                
-                <div className="absolute top-8 left-8 w-2 h-2 bg-orange-500 rounded-full"></div>
-                <div className="absolute top-16 right-12 w-2 h-2 bg-orange-500 rounded-full"></div>
-                <div className="absolute bottom-12 left-16 w-2 h-2 bg-orange-500 rounded-full"></div>
-                <div className="absolute bottom-8 right-8 w-2 h-2 bg-orange-500 rounded-full"></div>
-                <div className="absolute top-1/2 left-4 w-2 h-2 bg-orange-500 rounded-full"></div>
-                <div className="absolute top-1/2 right-4 w-2 h-2 bg-orange-500 rounded-full"></div>
-              </div>
-            </div>
+            <img src={aboutUsImage} alt="About United Auto Parts" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
         </div>
       </div>

@@ -8,37 +8,37 @@ const AllProducts = () => {
     {
       name: "Used Engine",
       description: "High-quality used engines tested and certified for reliability",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      image: "https://thumbs.dreamstime.com/b/car-engine-isolated-white-background-41884084.jpg",
       category: "Engine"
     },
     {
       name: "Used Transmission",
       description: "Pre-owned transmissions with comprehensive testing and warranty",
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&h=300&fit=crop",
+      image: "https://tse4.mm.bing.net/th/id/OIP.q1fAUumxfowVAvU-BX8LyQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       category: "Transmission"
     },
     {
       name: "Used Transfer Case",
       description: "Reliable transfer cases for 4WD and AWD vehicles",
-      image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+      image: "https://tse1.mm.bing.net/th/id/OIP.zDGC6wixAPoSx_JbxOwViAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       category: "Drivetrain"
     },
     {
       name: "Used Steering Column",
       description: "Quality steering columns with safety features intact",
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&h=300&fit=crop",
+      image: "https://grimmermotors.co.nz/wp-content/uploads/2018/05/steering-column-1.jpg",
       category: "Steering"
     },
     {
       name: "Used Instrument Cluster",
       description: "Functional instrument clusters with accurate readings",
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&h=300&fit=crop",
+      image: "https://tse2.mm.bing.net/th/id/OIP.RJ35_MM7_CiczdJhgDeyjgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       category: "Electronics"
     },
     {
       name: "Used Drive Shaft",
       description: "Durable drive shafts for smooth power transmission",
-      image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop",
+      image: "https://tse2.mm.bing.net/th/id/OIP.5rIDs4a6ghU57Mrf5puAlgHaEN?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       category: "Drivetrain"
     },
     {
@@ -113,7 +113,7 @@ const AllProducts = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 px-4 py-8 sm:py-12">
         <div className="text-center mb-8 sm:mb-12">
-          <img src={logo} alt="United Auto Parts" className="w-24 h-18 sm:w-32 sm:h-24 mx-auto mb-4 sm:mb-6" />
+
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">All Products</h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Discover our comprehensive selection of high-quality used auto parts. 

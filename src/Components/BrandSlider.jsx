@@ -6,11 +6,11 @@ const BrandSlider = () => {
   const brands = [
     {
       name: "Jaguar",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Jaguar_logo.svg/1200px-Jaguar_logo.svg.png"
+      logo: "https://tse4.mm.bing.net/th/id/OIP.yHsGqy5bGJA34Gq30p4T9QHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
     },
     {
       name: "Honda",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Honda_logo.svg/2560px-Honda_logo.svg.png"
+      logo: "https://www.freepnglogos.com/uploads/honda-logo-png/honda-logo-meaning-and-history-honda-symbol-1.png"
     },
     {
       name: "BMW",
@@ -18,7 +18,7 @@ const BrandSlider = () => {
     },
     {
       name: "Toyota",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Toyota_logo.svg/2560px-Toyota_logo.svg.png"
+      logo: "https://www.freepnglogos.com/uploads/toyota-logo-png/toyota-logos-download-image-15.png"
     },
     {
       name: "Ford",
@@ -26,7 +26,7 @@ const BrandSlider = () => {
     },
     {
       name: "Dodge",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dodge_logo.svg/2560px-Dodge_logo.svg.png"
+      logo: "https://www.freepnglogos.com/uploads/cummins-png-logo/dodge-cummins-png-logo-28.png"
     },
     {
       name: "Mercedes",
@@ -61,7 +61,7 @@ const BrandSlider = () => {
                 <img
                   src={brand.logo}
                   alt={brand.name}
-                  className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                  className="max-w-full max-h-full object-contain  transition-all duration-300"
                 />
               </div>
             ))}
